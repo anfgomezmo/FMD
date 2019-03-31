@@ -1,5 +1,5 @@
 local perpage = 30
-local apiurl = 'https://api.mangahub.io/graphql'
+local apiurl = 'https://api2.mangahub.io/graphql'
 local cdnurl = 'https://cdn.mangahub.io/file/imghub/'
 
 function getx()
@@ -92,7 +92,7 @@ function AddWebsiteModule(name, url)
   m.website = name
   m.rooturl = url
   m.category = 'English'
-  m.lastupdated='February 17, 2018'
+  m.lastupdated = 'March 29, 2019'
   m.ongetinfo='getinfo'
   m.ongetpagenumber='getpagenumber'
   m.ongetnameandlink='getnameandlink'

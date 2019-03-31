@@ -24,6 +24,8 @@ updater/lib
 updaterslim/lib
 bin/
 Release/
+3rd/
+licenses/
 
 # compiled languages files
 *.mo
